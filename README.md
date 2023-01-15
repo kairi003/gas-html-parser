@@ -10,6 +10,16 @@ npm install
 npm run build
 ```
 
+# Usage
+```js
+<script src="/path/to/bundle.js"></script>
+<script>
+  const { parse } = window.HTMLParser;
+  const dom = parse('<body><div class="foo">bar</div></body>');
+  console.log(dom.querySelector('.foo').textContent);
+</script>
+```
+
 # Reference
 - node-html-parser [npm](https://www.npmjs.com/package/node-html-parser) [github](https://github.com/taoqf/node-html-parser)
 
