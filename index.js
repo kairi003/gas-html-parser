@@ -1,1 +1,1 @@
-module.exports = require('node-html-parser');
+Object.assign(globalThis, require('node-html-parser'));

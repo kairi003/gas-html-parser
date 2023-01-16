@@ -6,8 +6,7 @@ module.exports = {
   entry: "./index.js",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
-    library: "HTMLParser"
+    path: path.resolve(__dirname, "dist")
   },
   optimization: {
     minimize: true,
