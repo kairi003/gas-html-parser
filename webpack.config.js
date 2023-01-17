@@ -9,11 +9,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   optimization: {
-    minimize: true,
     minimizer: [
       new TerserPlugin({
-        terserOptions: { output: { ascii_only: true } },
-        extractComments: true,
+        terserOptions: { output: { ascii_only: true } }
       })
     ],
   }
