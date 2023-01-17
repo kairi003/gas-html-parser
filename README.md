@@ -1,6 +1,8 @@
 # gas-html-parser
 [node-html-parser](https://www.npmjs.com/package/node-html-parser) bundles for Google Apps Script.
 
+GAS Project: [https://script.google.com/home/projects/1JTLPVXGW6Pq4zSAV5ED9XrWOPydVywumQZSOWN7l6KJ0UtWxtX3RbYO6](https://script.google.com/home/projects/1JTLPVXGW6Pq4zSAV5ED9XrWOPydVywumQZSOWN7l6KJ0UtWxtX3RbYO6)
+
 # Install
 Script ID :`1JTLPVXGW6Pq4zSAV5ED9XrWOPydVywumQZSOWN7l6KJ0UtWxtX3RbYO6`
 
@@ -15,6 +17,14 @@ const html = `<body>
 </body>`;
 const dom = HtmlParser.parse(html);
 console.log(dom.querySelector('#id .pear').textContent);
+```
+
+# Build
+```sh
+git clone {REMOTE_REPOSITORY}
+cd /d {REPOSITORY_NAME}
+npm install
+npm run build
 ```
 
 # Reference
